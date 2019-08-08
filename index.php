@@ -18,10 +18,11 @@ echo "<p id='p01'>Sample text for php code</p>";
 ?>
 
 <form action="register.php" method="post">
-Name: <input type="text" name="name"><br>
-Email: <input type="text" name="email"><br>
-Comment: <textarea name="comment" rows="5" cols="30"></textarea>
-<input type="submit">
+    <input type="text" name="name" placeholder="Full name"><br>
+    <input type="text" name="email" placeholder="Your email"><br>
+    <textarea name="comment" placeholder="Comment" rows="5" cols="30"></textarea>
+    <input type = "submit">
+
 
 </form>	
 	
