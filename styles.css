@@ -1,0 +1,25 @@
+body {
+background-color:powderblue;
+}
+
+h1 {
+color: blue;
+font-family: TimesNewRoman;
+text-align: center;
+}
+
+h2 {
+color: purple;
+text-align: center;
+}
+
+
+p {
+color: green;
+border: 2px solid black;
+}
+
+#p01 {
+color: red;
+border: 3px dotted red;
+}
