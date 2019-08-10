@@ -13,6 +13,14 @@ color: purple;
 text-align: center;
 }
 
+#h2s {
+text-align: left;
+}
+
+h3 {
+color: blue;
+border: 2px solid blue;
+}
 
 p {
 color: green;
@@ -22,4 +30,8 @@ border: 2px solid black;
 #p01 {
 color: red;
 border: 3px dotted red;
+}
+
+li {
+color: green;
 }
