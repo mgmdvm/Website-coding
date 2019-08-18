@@ -23,13 +23,27 @@ web data.</h2>
 </ol>
 
 <?php 
-echo "<p id='p01'>Sample text for php code</p>";
+#echo "<p id='p01'>Sample text for php code</p>";
+#This is a sql query for pulling data from the database
+    //$sql = "SELECT * FROM Users;";
+    //$result = mysqli_query($conn, $sql);
+    //$resultCheck = mysqli_num_rows($result);
+    
+    //if ($resultCheck > 0) {
+        //while ($row = mysql_fetch_assoc($result)) {
+            //exho $row['user_uid'] . "<bf>";
+            //}
+        //}
+       
+        
+        
+        
 ?>
 
-<form action="register.php" method="post">
+<form action="includes/comment.inc.php" method="POST">
     <input type="text" name="name" placeholder="Full name"><br>
     <input type="text" name="email" placeholder="Your email"><br>
-    <textarea name="comment" placeholder="Comment" rows="5" cols="30"></textarea>
+    <textarea name="comment" placeholder="Comment" rows="10" cols="30"></textarea>
     <input type = "submit">
 
 
