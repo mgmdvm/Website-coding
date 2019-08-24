@@ -4,6 +4,7 @@
 <head>
 <title>Demonstration Website</title>
 <link rel="stylesheet" href="styles.css">
+<script src="JS/script.js"></script>
 </head>
 
 <body>
@@ -22,16 +23,16 @@ web data.</h2>
     <li>HTML and CSS</li>
 </ol>
 
-
-
 <form action="includes/comment.inc.php" method="POST">
     <input type="text" name="name" placeholder="Full name"><br>
     <input type="text" name="email" placeholder="Your email"><br>
     <textarea name="comment" placeholder="Comment" rows="10" cols="30"></textarea>
-    <input type = "submit">
-
-
+    <input type = "Submit">
 </form>	
-	
+<button onclick="revealMessage()">Click here</button> <br>
+<p id="hiddenMessage" style="display:none;">This is a JavaScript script</p>
+
+
+<a href="includes/collect.inc.php">Collect Data</a>
 </body>
 </html>
