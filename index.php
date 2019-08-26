@@ -29,7 +29,9 @@ web data.</h2>
     <textarea name="comment" placeholder="Comment" rows="10" cols="30"></textarea>
     <input type = "Submit">
 </form>	
-<button onclick="revealMessage()">Click here</button> <br>
+<button onclick="revealMessage()">Click here</button> 
+<button onclick="hideMessage()">Click again</button> <br>
+
 <p id="hiddenMessage" style="display:none;">This is a JavaScript script</p>
 
 
