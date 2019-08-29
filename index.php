@@ -21,6 +21,8 @@ web data.</h2>
     <li>Python</li>
     <li>PHP</li>
     <li>HTML and CSS</li>
+    <lik>JavaScript</lik>
+    <li>MySQL</li>
 </ol>
 
 <form action="includes/comment.inc.php" method="POST">
